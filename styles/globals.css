@@ -20,9 +20,12 @@ a {
 }
 
 .main {
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 200vh;
+  padding: 20vw;
+  gap: 80px;
 }
 
 .box {
