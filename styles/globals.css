@@ -18,3 +18,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: purple;
+}
